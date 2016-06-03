@@ -9,7 +9,10 @@ I plan to make this an open source, lightweight alternative to these sort of mes
 coder by trade, so this will be a learning process. There are no promises and no guarantees of delivery; features will
 be added at my leisure. Nyeh nyeh.
 
+I plan to use some form of SQL (such as MySQL or SQLite) and build a frontend application, perhaps in Python.
+
 # Anticipated Features
 * _Shot database_: tables with metadata, comments, and timecode. Ideally this would interface/export as an ALE so that it could be applied to clips in Avid, but that's secondary to a good search tool.
 * _Logs_: a location to store logs/transcripts/notes, so that they could be searched as quickly as a shot database.
 * _Universal search_: looking for a phrase? Looking for someone doing something you remember seeing? If it's logged and tagged properly, you'd call up both the shot info _and_ the relevant log/transcript.
+* _Standalone client_: Web apps suck if your network goes down, and they suck even more if you're building and accessing an extensive database. Keep it local or stored on your local shared storage for ultimate security, assuming your networked storage is airgapped -- it is airgapped, isn't it? ;)
